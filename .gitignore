@@ -5,3 +5,5 @@ assets/
 .idea
 .pytest_cache/
 .idea/workspace.xml
+__pycache__
+rm
