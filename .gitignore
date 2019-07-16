@@ -2,5 +2,6 @@
 report.html
 .coverage
 assets/
-
+.idea
 .pytest_cache/
+.idea/workspace.xml
