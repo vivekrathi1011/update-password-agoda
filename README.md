@@ -56,7 +56,7 @@ change_password( old_passwd, new_passwd )
         ├── __init__.py
         └── test_similar.py
 ```
-###How To Use This
+###How To Use This (Python Version > 3.* )
     1.git pull "Password Update"
     2.Run pip install -r requirements.txt to install dependencies
     3.Run python app.py
