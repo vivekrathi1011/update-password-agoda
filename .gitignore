@@ -1,0 +1,6 @@
+# Reporting Files
+report.html
+.coverage
+assets/
+
+.pytest_cache/

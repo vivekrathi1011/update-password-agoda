@@ -1,0 +1,33 @@
+rules:
+
+  LENGTH_CHECK:
+    package_name: password_update.password_validation_utils.validation
+    func_name: length_check
+
+  CHECK_CASE_ALPHABET:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_case_alphabet
+
+  CHECK_CASE_INTEGER:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_case_integer
+
+  CHECK_SPECIAL_CHAR:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_special_char
+
+  CHECK_ALLOWED_SPECIAL_CHARS:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_allowed_special_chars
+
+  CHECK_REPEATS:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_repeats
+
+  CHECK_SPECIAL_CHAR_COUNT:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_special_char_count
+
+  CHECK_PERCENTAGE_ON_NUMBER:
+    package_name: password_update.password_validation_utils.validation
+    func_name: check_percentage_on_number

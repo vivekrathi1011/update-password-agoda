@@ -1,0 +1,17 @@
+test:
+
+
+
+# Password is not similar to old password &lt; 80% match.
+
+  test_similar_old_password:
+     value: "Qwertyuiop1234$#@!"
+
+  test_similar_new_password:
+    value: "PasswordTest123$#@!"
+
+  test_negative_case_similar_old_password:
+     value: "Qwertyuiop1234$#@!"
+
+  test_negative_case_similar_new_password:
+    value: "Qwertyabc1234$#@!"

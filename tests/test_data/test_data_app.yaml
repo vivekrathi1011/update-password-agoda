@@ -1,0 +1,49 @@
+test:
+# Test password validator function
+
+
+# Expected Output : Test Case - Pass : Return - True
+  test_app_validate_rules_correct_password:
+     value: "Tqasertcdvbv1234$#@!"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_length_check:
+     value: "Qwertyuiop123"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_case_alphabet:
+    value: "aaaabbbbcccc1234$#@!"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_case_integer:
+    value: "QwertyuiopAbCD$#@!"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_special_char:
+    value: "Qwertyuiop123456789"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_allowed_special_chars:
+    value: "Qwertyuiop1234${}:"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_repeats:
+    value: "Qwertyuiiiii1234$#@!"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_special_char_count:
+    value: "Qwertyuiop1234$#@!@"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_validate_rules_check_percentage_on_number:
+    value: "Qwer987654121234$#@!"
+
+# Expected Output : Test Case - Pass : Return - True
+  test_app_change_password:
+    test_app_change_password_old_passwd: "PasswordTest123$#@!"
+    test_app_change_password_new_passwd: "NewPassCode12345#!"
+
+# Expected Output : Test Case - Pass : Return - False
+  test_app_change_password_with_match:
+    test_app_change_password_with_match_old_passwd: "PasswordTest123$#@!"
+    test_app_change_password_with_match_new_passwd: "wordTest123$#@!234"
